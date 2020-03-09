@@ -1,0 +1,40 @@
+<resources>
+    //
+    <string name="app_name">Pet Web</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string-array name="string_array_pago">
+        <item>Efectivo</item>
+        <item>Tarjeta de crédito</item>
+        <item>Agregar método de pago</item>
+    </string-array>
+
+
+    <string-array name="string_array_servicios">
+        <item>Alimentar</item>
+        <item>Pasear</item>
+        <item>Servicios médicos/Veterinarios</item>
+        <item>Bañar/Cortar pelo/Cortar uñas</item>
+        <item>Entrenamiento</item>
+        <item>Hospedaje</item>
+    </string-array>
+
+    <string-array name="string_array_mascotas">
+        <item>Firulais</item>
+        <item>Agregar mascota</item>
+    </string-array>
+
+
+    <array name="imagenesservicios">
+        <item>@mipmap/comida</item>
+        <item>@mipmap/paseo</item>
+        <item>@mipmap/veterinario</item>
+    </array>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:title="Servicios"
+            android:icon="@mipmap/fservicios"
+            android:id="@+id/nav_serv"/>
+        
+        <item
+            android:id="@+id/nav_hist"
+            android:icon="@mipmap/fhistorial"
+            android:title="Historial" />
+        <item
+            android:id="@+id/nav_prom"
+            android:icon="@mipmap/fpromociones"
+            android:title="Promociones" />
+        <item
+            android:id="@+id/nav_not"
+            android:icon="@mipmap/fnotificaciones"
+            android:title="Notificaciones" />
+        <item
+            android:id="@+id/nav_ayu"
+            android:icon="@mipmap/fayuda"
+            android:title="Ayuda" />
+        <item
+            android:id="@+id/nav_conf"
+            android:icon="@mipmap/fconfiguracion"
+            android:title="Configuración" />
+        <item
+            android:id="@+id/nav_adop"
+            android:icon="@mipmap/fadopta"
+            android:title="Adopta" />
+        <item
+            android:id="@+id/nav_trabaja"
+            android:icon="@mipmap/ftrabaja"
+            android:title="Trabaja con PetWeb" />
+        <item android:title="¿Quiénes somos?"
+                android:id="@+id/nav_quienes">
+        </item>
+    </group>
+
+</menu>
